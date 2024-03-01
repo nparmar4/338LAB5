@@ -2,7 +2,7 @@
 import sys
 
 
-def mergeSort(arr, low, high):
+def merge_sort(arr, low, high):
     if low < high:
         mid = (low+high)//2
         merge_sort(arr, low, mid)
