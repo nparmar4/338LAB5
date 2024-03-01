@@ -120,7 +120,7 @@ merge_sort_pq_time = measure_performance(PriorityQueueMerge)
 print("Sorted Priority Queue Average Time:", sorted_pq_time)
 print("Merge Sort Priority Queue Average Time:", merge_sort_pq_time)
 
-
+#this code was generated using chatGPT but was modified to provide accurate results/output
 
 #Q5:
 '''

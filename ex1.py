@@ -35,4 +35,5 @@ if __name__ == "__main__":
     user_input_expr = sys.argv[1]
     calculate_expression(user_input_expr)
 
+#this code was generated using chatGPT but was modified to provide accurate results/output
 

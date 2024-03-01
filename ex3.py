@@ -9,7 +9,7 @@ class Node:
         self.data = data
         self.next = None
 
-# 1
+# QUESTION 1
 class ArrayStack:
     def __init__(self):
         self.items = []
@@ -26,7 +26,7 @@ class ArrayStack:
     def is_empty(self):
         return len(self.items) == 0
 
-# 2
+#QUESTION 2
 class LinkedListStack:
     def __init__(self):
         self.head = None
@@ -47,7 +47,7 @@ class LinkedListStack:
     def is_empty(self):
         return self.head is None
 
-# 3
+#QUESTION 3
 def random_list(length):
     tasks = []
     for _ in range(length):
@@ -55,7 +55,7 @@ def random_list(length):
         tasks.append(task)
     return tasks
 
-# 4
+#QUESTION 4
 def measure_array_stack(tasks):
     stack = ArrayStack()
     for task in tasks:
@@ -86,7 +86,7 @@ for _ in range(100):
 print("Array Times: ", array_times, "\n")
 print("Linked List Times: ", linked_list_times)
 
-# 5
+#QUESTION 5
 plt.hist(array_times, bins=20, alpha=0.5, label='Array Stack')
 plt.hist(linked_list_times, bins=20, alpha=0.5, label='Linked List Stack')
 plt.xlabel('Time (seconds)')
