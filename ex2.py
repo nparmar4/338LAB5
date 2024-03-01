@@ -123,10 +123,10 @@ print("Merge Sort Priority Queue Average Time:", merge_sort_pq_time)
 
 
 #Q5:
-'''The Merge Sort Priority Queue implementation is slightly faster on average compared to the 
-Sorted Priority Queue implementation. This is because the Sorted Priority Queue implementation 
-incurs overhead from shifting elements when inserting new elements into the sorted array, 
-while the Merge Sort Priority Queue implementation postpones sorting it until it is necessary and 
-efficiently sorts the array using merge sort when needed. Therefore, for larger arrays, 
-the Merge Sort Priority Queue performs better due to the efficiency of merge sort.
+'''
+Overall, the Merge Sort Priority Queue performs better than the Sorted Priority Queue. 
+This is because the Sorted Priority Queue involves overhead from shifting elements during 
+insertion into the sorted array, whereas the Merge Sort Priority Queue defers sorting until 
+necessary and efficiently uses merge sort when required. Thus for larger arrays, the 
+Merge Sort Priority Queue perfroms better due to the effectiveness of merge sort.
 '''
